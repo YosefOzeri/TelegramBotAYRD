@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="996b1794-78c8-4eec-ac11-07eb0cec6fac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pictures/TelegramBackground.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pictures/ayrdIcon.png" afterDir="false" />
-    </list>
+    <list default="true" id="996b1794-78c8-4eec-ac11-07eb0cec6fac" name="Changes" comment="update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +38,8 @@
     "last_opened_file_path": "C:/Users/97252/IdeaProjects/TelegramBotAYRD/src/Pictures",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -85,8 +72,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685982108382</updated>
-      <workItem from="1685982109714" duration="16176000" />
+      <workItem from="1685982109714" duration="16465000" />
     </task>
+    <task id="LOCAL‎-00001" summary="update">
+      <created>1685998815557</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL‎-00001" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1685998815557</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,5 +97,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
