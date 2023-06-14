@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="996b1794-78c8-4eec-ac11-07eb0cec6fac" name="Changes" comment="update" />
+    <list default="true" id="996b1794-78c8-4eec-ac11-07eb0cec6fac" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AYRDBot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainWindow.java" afterDir="false" />
+    </list>
+    <list id="97ac8dfb-616b-4e37-b009-e895600b48fd" name="Changes by ramrevivo_=" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +29,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -35,8 +52,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/97252/IdeaProjects/TelegramBotAYRD/src/Pictures",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "C:/Users/97252/IdeaProjects/‏‏TelegramBotAYRD_2",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
@@ -47,7 +64,11 @@
       <recent name="C:\Users\97252\IdeaProjects\TelegramBotAYRD\src\Pictures" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\97252\IdeaProjects\TelegramBotAYRD\src\test" />
       <recent name="C:\Users\97252\IdeaProjects\TelegramBotAYRD\src\Pictures" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
   </component>
   <component name="RunManager">
@@ -73,6 +94,9 @@
       <option name="presentableId" value="Default" />
       <updated>1685982108382</updated>
       <workItem from="1685982109714" duration="16465000" />
+      <workItem from="1686574209059" duration="1208000" />
+      <workItem from="1686591154483" duration="13229000" />
+      <workItem from="1686770384449" duration="825000" />
     </task>
     <task id="LOCAL‎-00001" summary="update">
       <created>1685998815557</created>

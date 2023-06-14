@@ -1,6 +1,7 @@
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
 import java.awt.font.TextAttribute;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -14,30 +15,33 @@ public class MainPanel extends JPanel {
     private BufferedImage ayrdIcon;
     private JLabel title;
     private JCheckBox first;
-    private JCheckBox second=new JCheckBox();
-    private JCheckBox third=new JCheckBox();
-    private JCheckBox forth=new JCheckBox();
-    private JCheckBox fifth=new JCheckBox();
+    private JCheckBox second;
+    private JCheckBox third;
+    private int counterToThree;
+    private boolean canSelectMore;
+    private JCheckBox forth;
+    private JCheckBox fifth;
     private List<JCheckBox> checkBoxes;
-    private boolean canChooseMore=true;
     private JLabel moreThen3Error=new JLabel("Error! you chose to much options");
-public MainPanel(){
-    this.setBounds(Constants.STARTING_X_PANEL_POSITION,Constants.STARTING_Y_PANEL_POSITION, Constants.WIDTH, Constants.HEIGHT);
-    addTitle();
-    addFirstCheckBox();
-    addSecondCheckBox();
-    addThirdCheckBox();
-    addForthCheckBox();
-    addFifthCheckBox();
-    mergeJCheckBox(this.first,this.second,this.third,this.forth,this.fifth);
-    checkOptions();
+    public MainPanel(){
+        this.setBounds(Constants.STARTING_X_PANEL_POSITION,Constants.STARTING_Y_PANEL_POSITION, Constants.WIDTH, Constants.HEIGHT);
+        addTitle();
+        this.counterToThree = 0;
+        this.canSelectMore = true;
+        addFirstCheckBox();
+        addSecondCheckBox();
+        addThirdCheckBox();
+        addForthCheckBox();
+        addFifthCheckBox();
+        mergeJCheckBox(this.first,this.second,this.third,this.forth,this.fifth);
+        checkOptions();
 
 
-    this.setLayout(null);
-    this.setVisible(true);
-    readImages();
+        this.setLayout(null);
+        this.setVisible(true);
+        readImages();
 
-}
+    }
 
     public void addTitle(){
         this.title=new JLabel("Please choose just-3 API you want:");
@@ -45,7 +49,7 @@ public MainPanel(){
         Map attributes = font.getAttributes();
         attributes.put(TextAttribute.UNDERLINE, TextAttribute.UNDERLINE_ON);
         this.title.setFont(font.deriveFont(attributes));
-       // this.title.setFont(font);
+        // this.title.setFont(font);
         //new Font("Serif",Font.BOLD, 12)
         this.title.setForeground(Color.white);
         this.title.setBounds(Constants.STARTING_X_PANEL_POSITION+20,Constants.STARTING_Y_PANEL_POSITION+20, Constants.CHECK_BOX_WIDTH*2,Constants.CHECK_BOX_HEIGHT);
@@ -58,8 +62,26 @@ public MainPanel(){
         this.first.setBounds(this.title.getX(),this.title.getY()+this.title.getHeight(), Constants.CHECK_BOX_WIDTH,Constants.CHECK_BOX_HEIGHT);
         this.first.setBorderPainted(false);
         this.first.setContentAreaFilled(false);
+        this.first.addActionListener(e -> {
+            checkCondition(this.first);
+        });
         this.add(this.first);
     }
+
+    public void checkCondition(JCheckBox checkBox){
+        if (checkBox.isSelected()){
+            this.counterToThree++;
+            if (this.counterToThree==4){
+                this.canSelectMore = false;
+                checkBox.setSelected(false);
+                System.out.println("fucking");
+            }
+        }
+        if (!checkBox.isSelected()){
+            this.counterToThree--;
+        }
+    }
+
     public void addSecondCheckBox(){
         this.second=new JCheckBox("Second API");
         this.second.setFont(new Font("arial", Font.BOLD, 18));
@@ -67,6 +89,9 @@ public MainPanel(){
         this.second.setBounds(this.first.getX(),this.first.getY()+this.first.getHeight(),Constants.CHECK_BOX_WIDTH,Constants.CHECK_BOX_HEIGHT);
         this.second.setBorderPainted(false);
         this.second.setContentAreaFilled(false);
+        this.second.addActionListener(e -> {
+            checkCondition(this.second);
+        });
         this.add(this.second);
     }
     public void addThirdCheckBox(){
@@ -76,6 +101,9 @@ public MainPanel(){
         this.third.setBounds(this.second.getX(),this.second.getY()+this.second.getHeight(), Constants.CHECK_BOX_WIDTH,Constants.CHECK_BOX_HEIGHT);
         this.third.setBorderPainted(false);
         this.third.setContentAreaFilled(false);
+        this.third.addActionListener(e -> {
+            checkCondition(this.third);
+        });
         this.add(this.third);
     }
     public void addForthCheckBox(){
@@ -85,6 +113,9 @@ public MainPanel(){
         this.forth.setBounds(this.third.getX(),this.third.getY()+this.third.getHeight(), Constants.CHECK_BOX_WIDTH,Constants.CHECK_BOX_HEIGHT);
         this.forth.setBorderPainted(false);
         this.forth.setContentAreaFilled(false);
+        this.forth.addActionListener(e -> {
+            checkCondition(this.forth);
+        });
         this.add(this.forth);
     }
     public void addFifthCheckBox(){
@@ -94,6 +125,9 @@ public MainPanel(){
         this.fifth.setBounds(this.forth.getX(),this.forth.getY()+this.forth.getHeight(), Constants.CHECK_BOX_WIDTH,Constants.CHECK_BOX_HEIGHT);
         this.fifth.setBorderPainted(false);
         this.fifth.setContentAreaFilled(false);
+        this.fifth.addActionListener(e -> {
+            checkCondition(this.fifth);
+        });
         this.add(this.fifth);
     }
 
@@ -114,32 +148,49 @@ public MainPanel(){
 
 
 
-    private boolean withinTheCapacity(List<JCheckBox> apiOptions){
-    boolean isValid=false;
-    int countSelections=0;
-    if (apiOptions!=null){
-        for (int i=0;i<apiOptions.size();i++){
-            if (apiOptions.get(i).isSelected()){
-                countSelections++;
-            }
-        }
-    }
-    return countSelections>=3;
-    }
+
+
 
     public void checkOptions(){
-    new Thread(()->{
-        while (true){
-          this.canChooseMore=withinTheCapacity(this.checkBoxes);
-          if (!this.canChooseMore){
-              JOptionPane jOptionPane=new JOptionPane(this.moreThen3Error,JOptionPane.NO_OPTION);
-              this.add(jOptionPane);
-          }
-        }
-    }).start();
+        new Thread(()->{
+            int i =0;
+            while (true) {
+                actionPerformed();
+            }
+        }).start();
     }
 
     private void mergeJCheckBox(JCheckBox first,JCheckBox second,JCheckBox third,JCheckBox forth,JCheckBox fifth){
-    this.checkBoxes= Arrays.asList(first,second,third,forth,fifth);
+        this.checkBoxes= Arrays.asList(first,second,third,forth,fifth);
     }
+
+    public void actionPerformed(){
+        String msg="";
+        if(this.first.isSelected()){
+            this.counterToThree++;
+            msg="first API selected\n";
+        }
+        if(this.second.isSelected()){
+            this.counterToThree++;
+            msg+="Second API selected\n";
+        }
+        if(this.third.isSelected()){
+            this.counterToThree++;
+            msg+="Third API selected\n";
+        }
+        if(this.forth.isSelected()){
+            this.counterToThree++;
+            msg+="Forth API selected\n";
+        }
+        if(this.fifth.isSelected()){
+            this.counterToThree++;
+            msg+="Fifth API selected\n";
+        }
+        if (this.counterToThree>=3){
+            msg+="-----------------\n";
+            JOptionPane.showMessageDialog(this,msg+"Total: "+counterToThree);
+        }
+
+    }
+
 }
