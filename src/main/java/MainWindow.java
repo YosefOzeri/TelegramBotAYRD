@@ -17,7 +17,6 @@ public class MainWindow extends JFrame {
         this.add(mainPanel);
         setImages();
         this.setIconImage(this.icon);
-
         this.setVisible(true);
     }
     public void setImages(){
