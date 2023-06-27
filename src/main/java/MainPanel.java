@@ -33,7 +33,7 @@ public class MainPanel extends JPanel {
         addThirdCheckBox();
         addForthCheckBox();
         addFifthCheckBox();
-        mergeJCheckBox(this.first,this.second,this.third,this.forth,this.fifth);
+        mergeJCheckBox();
         checkOptions();
 
 
@@ -160,8 +160,8 @@ public class MainPanel extends JPanel {
         }).start();
     }
 
-    private void mergeJCheckBox(JCheckBox first,JCheckBox second,JCheckBox third,JCheckBox forth,JCheckBox fifth){
-        this.checkBoxes= Arrays.asList(first,second,third,forth,fifth);
+    private void mergeJCheckBox(){
+        this.checkBoxes= Arrays.asList(this.first,this.second,this.third,this.forth,this.fifth);
     }
 
     public void actionPerformed(){
@@ -192,5 +192,7 @@ public class MainPanel extends JPanel {
         }
 
     }
+
+
 
 }

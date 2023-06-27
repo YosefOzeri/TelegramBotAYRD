@@ -4,18 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="996b1794-78c8-4eec-ac11-07eb0cec6fac" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AYRDBot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+    <list default="true" id="996b1794-78c8-4eec-ac11-07eb0cec6fac" name="Changes" comment="מעודכן">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CatFactApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JokeApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NumbersApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AYRDBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AYRDBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPanel.java" afterDir="false" />
     </list>
-    <list id="97ac8dfb-616b-4e37-b009-e895600b48fd" name="Changes by ramrevivo_=" comment="" />
+    <list id="0a07d38c-6c4c-4a0a-95d0-1dbb2c86a8d2" name="Changes by Aviya" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPanel.java" afterDir="false" />
+    </list>
+    <list id="a5326b21-22e3-4457-bffa-8fc2443b89ba" name="Changes by danip" comment="" />
+    <list id="97ac8dfb-616b-4e37-b009-e895600b48fd" name="Changes by ramrevivo_=" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/AYRDBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AYRDBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPanel.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +43,41 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/main/java/AYRDBot.java">
+      <ranges>
+        <range start1="0" end1="0" start2="0" end2="1" changelist="97ac8dfb-616b-4e37-b009-e895600b48fd" />
+        <range start1="1" end1="1" start2="2" end2="3" changelist="97ac8dfb-616b-4e37-b009-e895600b48fd" />
+        <range start1="4" end1="4" start2="6" end2="7" changelist="97ac8dfb-616b-4e37-b009-e895600b48fd" />
+        <range start1="5" end1="5" start2="8" end2="10" changelist="97ac8dfb-616b-4e37-b009-e895600b48fd" />
+        <range start1="11" end1="12" start2="16" end2="22" changelist="97ac8dfb-616b-4e37-b009-e895600b48fd" />
+        <range start1="14" end1="15" start2="24" end2="28" changelist="97ac8dfb-616b-4e37-b009-e895600b48fd" />
+        <range start1="29" end1="32" start2="42" end2="43" changelist="97ac8dfb-616b-4e37-b009-e895600b48fd" />
+        <range start1="48" end1="50" start2="59" end2="62" changelist="97ac8dfb-616b-4e37-b009-e895600b48fd" />
+        <range start1="52" end1="56" start2="64" end2="71" changelist="97ac8dfb-616b-4e37-b009-e895600b48fd" />
+        <range start1="57" end1="58" start2="72" end2="74" changelist="97ac8dfb-616b-4e37-b009-e895600b48fd" />
+        <range start1="59" end1="60" start2="75" end2="76" changelist="97ac8dfb-616b-4e37-b009-e895600b48fd" />
+        <range start1="61" end1="61" start2="77" end2="95" changelist="97ac8dfb-616b-4e37-b009-e895600b48fd" />
+        <range start1="75" end1="78" start2="109" end2="112" changelist="97ac8dfb-616b-4e37-b009-e895600b48fd" />
+        <range start1="99" end1="100" start2="133" end2="134" changelist="97ac8dfb-616b-4e37-b009-e895600b48fd" />
+        <range start1="108" end1="126" start2="142" end2="159" changelist="996b1794-78c8-4eec-ac11-07eb0cec6fac" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/main/java/MainPanel.java">
+      <ranges>
+        <range start1="25" end1="25" start2="25" end2="26" changelist="97ac8dfb-616b-4e37-b009-e895600b48fd" />
+        <range start1="35" end1="36" start2="36" end2="37" changelist="996b1794-78c8-4eec-ac11-07eb0cec6fac" />
+        <range start1="58" end1="59" start2="59" end2="60" changelist="0a07d38c-6c4c-4a0a-95d0-1dbb2c86a8d2" />
+        <range start1="85" end1="86" start2="86" end2="87" changelist="0a07d38c-6c4c-4a0a-95d0-1dbb2c86a8d2" />
+        <range start1="97" end1="98" start2="98" end2="99" changelist="0a07d38c-6c4c-4a0a-95d0-1dbb2c86a8d2" />
+        <range start1="109" end1="110" start2="110" end2="111" changelist="0a07d38c-6c4c-4a0a-95d0-1dbb2c86a8d2" />
+        <range start1="121" end1="122" start2="122" end2="123" changelist="0a07d38c-6c4c-4a0a-95d0-1dbb2c86a8d2" />
+        <range start1="162" end1="164" start2="163" end2="165" changelist="996b1794-78c8-4eec-ac11-07eb0cec6fac" />
+        <range start1="170" end1="171" start2="171" end2="173" changelist="0a07d38c-6c4c-4a0a-95d0-1dbb2c86a8d2" />
+        <range start1="195" end1="195" start2="197" end2="199" changelist="996b1794-78c8-4eec-ac11-07eb0cec6fac" />
+      </ranges>
+    </file>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -46,19 +87,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/97252/IdeaProjects/‏‏TelegramBotAYRD_2",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/97252/IdeaProjects/‏‏TelegramBotAYRD_2&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\97252\IdeaProjects\TelegramBotAYRD\src\Pictures" />
@@ -97,6 +139,14 @@
       <workItem from="1686574209059" duration="1208000" />
       <workItem from="1686591154483" duration="13229000" />
       <workItem from="1686770384449" duration="825000" />
+      <workItem from="1686772725755" duration="8445000" />
+      <workItem from="1687034934505" duration="5658000" />
+      <workItem from="1687204785761" duration="4196000" />
+      <workItem from="1687358772183" duration="10137000" />
+      <workItem from="1687523578950" duration="4325000" />
+      <workItem from="1687686463148" duration="4196000" />
+      <workItem from="1687724317475" duration="637000" />
+      <workItem from="1687781760743" duration="992000" />
     </task>
     <task id="LOCAL‎-00001" summary="update">
       <created>1685998815557</created>
@@ -105,7 +155,28 @@
       <option name="project" value="LOCAL‎" />
       <updated>1685998815557</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL‎-00002" summary="מעודכן">
+      <created>1686773011933</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL‎-00002" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1686773011933</updated>
+    </task>
+    <task id="LOCAL‎-00003" summary="מעודכן">
+      <created>1686773040775</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL‎-00003" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1686773040775</updated>
+    </task>
+    <task id="LOCAL‎-00004" summary="מעודכן">
+      <created>1686773090205</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL‎-00004" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1686773090205</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +195,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="מעודכן" />
+    <option name="LAST_COMMIT_MESSAGE" value="מעודכן" />
   </component>
 </project>

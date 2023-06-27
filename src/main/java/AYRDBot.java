@@ -106,23 +106,22 @@ public class AYRDBot extends TelegramLongPollingBot {
     }
 
 
-    public void addMenu(Update update) { // נסיון שני i hate niggers
-        long chatId = update.getMessage().getChatId();
-        SendMessage sendMessage = new SendMessage();
-        sendMessage.setChatId(chatId);
-        InlineKeyboardButton yesButton = new InlineKeyboardButton("Yes");
-        yesButton.setCallbackData("Yes");
-        InlineKeyboardButton noButton = new InlineKeyboardButton("No");
-        noButton.setCallbackData("No");
-        List<InlineKeyboardButton> topRow = Arrays.asList(yesButton, noButton);
-        showButton(sendMessage, topRow);
-        sendMessage.setText("choose from buttons:");
-        try {
-            execute(sendMessage);
-        } catch (TelegramApiException e) {
-            throw new RuntimeException(e);
-        }
-        //i hate niggers
-    }
+//    public void addMenu(Update update) { // נסיון שני i hate niggers
+//        long chatId = update.getMessage().getChatId();
+//        SendMessage sendMessage = new SendMessage();
+//        sendMessage.setChatId(chatId);
+//        InlineKeyboardButton yesButton = new InlineKeyboardButton("Yes");
+//        yesButton.setCallbackData("Yes");
+//        InlineKeyboardButton noButton = new InlineKeyboardButton("No");
+//        noButton.setCallbackData("No");
+//        List<InlineKeyboardButton> topRow = Arrays.asList(yesButton, noButton);
+//        showButton(sendMessage, topRow);
+//        sendMessage.setText("choose from buttons:");
+//        try {
+//            execute(sendMessage);
+//        } catch (TelegramApiException e) {
+//            throw new RuntimeException(e);
+//        }
+//    }
 }
 

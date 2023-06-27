@@ -5,9 +5,9 @@ import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 public class  Main {
     public static void main(String[] args) {
         openBot();
-       new MainWindow();
-
+        new MainWindow();
     }
+
     public static void openBot(){
         try {
             TelegramBotsApi botsApi=new TelegramBotsApi((DefaultBotSession.class));
